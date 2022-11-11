@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: D-DIN-Bold, Arial, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.logo-img{
+    width: 200px;
+    height: 30px;
+}
+.banner1{
+    height:600px;
+    position: relative;
+    background-image: url('./files/bg-img1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.left-btm{
+    position: absolute;
+    bottom: 15%;
+    left: 50px;
+}
+.butn{
+    color: white;
+}
+.butn:hover{
+    background-color: white;
+    color: black;
+}
+.banner2{
+    height:600px;
+    position: relative;
+    background-image: url('./files/bg-img2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner3{
+    height:600px;
+    position: relative;
+    background-image: url('./files/bg-img3.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner4{
+    height:600px;
+    position: relative;
+    background-image: url('./files/bg-img4.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.list-item{
+    color: white;
+    font-size: 12px;
+}
